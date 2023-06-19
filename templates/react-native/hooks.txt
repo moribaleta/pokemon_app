@@ -1,0 +1,3 @@
+export const use${fileName}Hooks = (props: ${fileName}Props) : ${fileName}HookProps => {
+  return {}
+}

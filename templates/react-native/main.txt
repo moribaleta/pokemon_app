@@ -1,0 +1,12 @@
+import React from 'react';
+import { ${fileName}Props } from './types';
+import { View } from 'react-native';
+import styles from './styles';
+
+const ${fileName} = ({}: ${fileName}Props) => {
+  return (
+    <View style={styles.main}/>
+  );
+};
+
+export default ${fileName};
