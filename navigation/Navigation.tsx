@@ -1,14 +1,15 @@
-import {DrawerContent, createDrawerNavigator} from '@react-navigation/drawer';
 import {
   NativeStackScreenProps,
   createNativeStackNavigator,
 } from '@react-navigation/native-stack';
 
 import Detail from '../screens/detail';
+import DrawerContent from '../screens/drawerContent';
 import Home from '../screens/home';
 import Login from '../screens/login';
 import {Pokemon} from '../types/types';
 import React from 'react';
+import {createDrawerNavigator} from '@react-navigation/drawer';
 
 declare global {
   namespace ReactNavigation {
