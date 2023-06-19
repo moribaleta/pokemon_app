@@ -9,17 +9,16 @@ import {View} from 'react-native';
 import styles from './styles';
 
 const DrawerContent = ({navigation}: DrawerContentComponentProps) => {
+  const onLogout = () => {
+    DataStateActions.setLogin(false);
+    navigation.reset({
+      routes: [{name: 'Login'}],
+    });
+  };
+
   return (
     <View style={styles.main}>
-      <DrawerItem
-        label={'Logout'}
-        onPress={() => {
-          DataStateActions.setLogin(false);
-          navigation.reset({
-            routes: [{name: 'Login'}],
-          });
-        }}
-      />
+      <DrawerItem label={'Logout'} onPress={onLogout} />
     </View>
   );
 };
