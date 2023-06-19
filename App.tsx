@@ -9,7 +9,7 @@ import 'react-native-gesture-handler';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
-import Navigation from './Navigation';
+import Navigation from './navigation/Navigation';
 import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
 import {SafeAreaProvider} from 'react-native-safe-area-context';

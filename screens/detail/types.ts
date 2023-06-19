@@ -1,5 +1,3 @@
-import {RootNavigationDetail} from '../../Navigation';
+import {RootNavigationDetail} from '../../navigation/Navigation';
 
-export interface DetailProps extends RootNavigationDetail {
-  //TODO: add your props here
-}
+export interface DetailProps extends RootNavigationDetail {}
